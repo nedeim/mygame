@@ -61,7 +61,7 @@ while True:
     goal.forward(4)
     player.forward(speed)
     if goal.xcor()>300 or goal.xcor()<-300:
-        goal.right(180)
+        goal.right(200)
     if goal.ycor()>300 or goal.ycor()<-300:
         goal.right(180)
 
